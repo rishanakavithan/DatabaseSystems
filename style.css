@@ -1,0 +1,59 @@
+#mainHeader{
+    background-color:bisque;
+    color:rgb(151, 3, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 1.5%;
+    font-size: 60px;
+}
+th {
+    background-color: #0d6efd;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 100;
+}
+
+.noActionTable { 
+    background-color: white;
+}
+.noActionTable tr:hover td{ 
+    background-color: white;
+}
+
+
+table{
+width: 90%;
+margin: 20px auto;
+border-collapse: collapse;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+
+th, td {
+border: 1px solid bisque;
+padding: 12px 15px;
+text-align: left;
+}
+
+tr:not(:first-child):hover { background-color: bisque; }
+
+.logoutbutton{
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: rgb(151, 3, 33);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.footer{
+    background-color:bisque;
+    color:rgb(151, 3, 33);
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5%;
+}
